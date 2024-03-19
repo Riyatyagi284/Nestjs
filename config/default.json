@@ -1,0 +1,16 @@
+{
+    "port": "3100",
+    "mongoDbUrl": "mongodb://127.0.0.1:27017/digizone",
+    "adminSecretToken": "admin@123",
+    "jwtSecret": "secretTest@123456",
+    "loginLink": "http://localhost:3000/auth",
+    "fileStoragePath": "../uploads/",
+    "cloudinary": {
+        "cloud_name": "dagzsvypc",
+        "api_key": "763873376275751",
+        "api_secret": "EV8g0cveLV2pRWJqou7yt5UaLLk",
+        "folderPath": "digizone/products/",
+
+        "bigSize": "400X400"
+    }
+}
